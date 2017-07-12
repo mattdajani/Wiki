@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf8" name="viewport" content="width=device-width, initial-scale=1">
+		<title>Wikipedia Viewer Application</title>
+        <link rel="stylesheet" href="../../bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="wiki.css">
+	</head>
+	<body>
+		<div class="container">
+		<h1 class="text-center" id="titleHeader">Wikipedia Viewer Application</h1>
+			<div class="row text-center">
+				<input type="text" id="searchBox" name="searchBox" placeholder="Search Wikipedia">
+				<span id="clearBox" class="small">Clear</span>
+			</div>
+			<div class="row text-center">
+				<input type="button" class="btn" id="searchButton" name="searchButton" value="Search">
+				<input type="button" class="btn" id="randomButton" name="randomButton" value="Random Page">
+			</div>
+			<div class="row">
+				<div id="displayBox">
+				</div>
+			</div>
+			<div class="row">
+				<footer class="bottom-footer"><p class="small text-center">Created by Matthew Dajani.</p></footer>
+			</div>
+		</div>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+        <script src="wiki.js"></script>
+	</body>
+</html>
