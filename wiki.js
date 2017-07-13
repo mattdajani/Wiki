@@ -1,3 +1,6 @@
+// Make Wikipedia searches and post results
+// Using the Wikipedia API using JQuery
+
 var searchButton = document.getElementById('searchButton');
 var searchText = document.getElementById('searchBox');
 var randomButtom = document.getElementById('randomButton');
